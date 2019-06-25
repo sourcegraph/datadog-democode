@@ -1,6 +1,6 @@
 # Datadog Metrics Demo Code
 
-This simple script will generate fake datadog metrics for common statsD commands to show case the [Sourcegraph Datadog Extension](https://github.com/sourcegraph/sourcegraph-datadog-metrics).
+This simple script will generate fake Datadog metrics for common statsD commands to show case the [Sourcegraph Datadog Extension](https://github.com/sourcegraph/sourcegraph-datadog-metrics).
 
 
 ## Setup
@@ -8,9 +8,7 @@ This simple script will generate fake datadog metrics for common statsD commands
 1. Follow these instructions to setup Datadog's Dogshell to allow sending metrics from your terminal shell:
 https://docs.datadoghq.com/developers/guide/dogshell-quickly-use-datadog-s-api-from-terminal-shell/
 
-If you don't have a datadog account yet, sign up on their [website](https://datadog.com).
-
-
+If you don't have a Datadog account yet, sign up on their [website](https://datadog.com).
 
 2) Clone the repo:
 
@@ -34,7 +32,7 @@ If you don't have a datadog account yet, sign up on their [website](https://data
 
 7) [Activate](https://sourcegraph.com/extensions/sourcegraph/datadog-metrics) the Datadog extension.
 
-8) Open any [open source code](https://sourcegraph.com/github.com/sourcegraph/datadog-democode@master/-/blob/democode.py?diff=dcaaf3c8b0863a16f39c11aa69d27fd870654a34&utm_source=chrome-extension) that generates the following kind of metrics for datadog:
+8) Open any [open source code](https://sourcegraph.com/github.com/sourcegraph/datadog-democode@master/-/blob/democode.py?diff=dcaaf3c8b0863a16f39c11aa69d27fd870654a34&utm_source=chrome-extension) that generates the following kind of incremental metrics:
     ```
     uploaded.file.size
     active.connections
