@@ -1,6 +1,6 @@
 # Datadog Metrics Demo Code
 
-This simple script will generate fake Datadog metrics for common statsD commands to demo the [Sourcegraph Datadog Extension](https://github.com/sourcegraph/sourcegraph-datadog-metrics).
+This simple script will generate random Datadog metrics for common statsD commands to demo the [Sourcegraph Datadog Extension](https://github.com/sourcegraph/sourcegraph-datadog-metrics).
 
 
 ## Setup
